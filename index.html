@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>CodeReview02</title>
+    <title>CodeReview 02</title>
 </head>
 <body>
     <header>
         <div id="top">
             <div id="logobox"><img id="logo" src=".\img\logo-newspaper-cf.png" alt="Newspaper Logo"></div>
-            <div id="fswdbox"><img id="fswd" src=".\img\banner-1.png" alt="Banner1"></div>
+            <div id="fswdbox"><a href="http://codefactory.wien/"><img id="fswd" src=".\img\banner-1.png" alt="Banner1"></a></div>
         </div>
         <div id="navigation">
             <ul>
@@ -21,18 +21,74 @@
             </ul>
         </div>
     </header>
+    <main>
     <div id="date">Friday, 14.09.2018</div>
-    <div class="wrapper">
-        <div id="topnews"><div>Top news</div></div>
-        <div class="articles">
-            <div id="box1"><!--<img src="img/nasa.png" alt="NASA">--></div>
-            <div id="box2"><!--<img src="img/eu.png" alt="EU">--></div>
-            <div id="box3"><!--<img src="img/jeff.png" alt="Jeff">--></div>
-            <div></div>
+    <div id="topnews"><p>Top News</p></div>
+    <!--TOP NEWS-->
+    <div id="topnews_flex">
+        <div id="news">
+            <div class="box box1">
+                <div><a href="article.html"><p class="text">NASA is trying to squash conspiracy theories about the space station leak</p></a></div>
+            </div>
+            <div class="box box2">
+                <div><a href="article.html"><p class="text">EU approves controversial Copyright Directive, including internet "link tax"</p></a></div>
+            </div>
+            <div class="box box3">
+                <div><a href="article.html"><p class="text">Jeff Bezos is going to create schools where "the child is the customer"</p></a></div>
+            </div>
         </div>
-        <div id="banner">this is the banner</div>
-      
-        
+        <a id="link_banner2" href="http://codefactory.wien/"><div id="box_banner"><div></div></div></a>
     </div>
+    <!--POPULAR NEWS-->
+    <div id="popular"><div>Popular</div></div>
+    <div id="popularnews_flex">
+        <div id="pnews">
+            <div class="box box4">
+                <a href="article.html"><p class="text">Polar's new fitness watch will<br> measure wattage of your exercise</p></a>
+            </div>
+            <div class="box box5">
+                <a href="article.html"><p class="text">Elon Musk smokes marijuana<br> live on web show</p></a>
+            </div>
+            <div class="box box6">
+                <a href="article.html"><p class="text">Edward Snowden survellance<br> powers ruled unlawful</p></a>
+            </div>
+        </div>
+    </div>
+    <div id="banner3_container"><a href="http://codefactory.wien/"><div id="banner3"></div></a></div>
+    <div id="bignews_flex">
+        <div class="tech">
+            <div class="bigbox box7">
+                <a href="article.html"><p class="text1">How to preorder the iPhone XS,<br> XSMax, and XR</p></a>
+            </div>
+            <div class="bigbox box8">
+                <a href="article.html"><p class="text1">This smart power strip lets you individually control each outlet</p></a>
+            </div>
+        </div>
+        <div id="banner4"><a href="http://codefactory.wien/"><div></div></a></div>
+    </div>
+    <div id="bignews2_flex">
+        <div class="tech"> 
+           <div class="bigbox box9">
+            <a href="article.html"><p class="text1">OnePlus announces super cheap<br> USB-C earbuds</p></a>
+            </div>
+            <div class="bigbox box10">
+                <a href="article.html"><p class="text1">Spotify raises limit for offline downloads to 10,000 songs per device</p></a>
+            </div>
+        </div>  
+        </div>
+    </main>
+    <footer>
+        <div id="f_nav">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Tech</a></li>
+            <li><a href="">Culture</a></li>
+            <li><a href="">Video</a></li>
+        </ul>
+    </div>
+    <div id="right"><img src="img/logo-newspaper-cf.png" alt="logo"></div>
+    <div id="name"><p>&copy Sanja Höbenreich - CodeFactory 2020</p></div>
+    </footer>
+
 </body>
 </html>
